@@ -1,0 +1,9 @@
+CACHE MANIFEST
+# v5
+index.html
+scripts/app.js
+styles/app.css
+
+NETWORK:
+http://*
+https://*

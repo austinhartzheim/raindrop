@@ -1,0 +1,20 @@
+{
+  "version": "0.1",
+  "name": "Raindrop",
+  "description": "Monitor weather.gov radar images",
+  "launch_path": "/index.html",
+  "fullscreen": "true",
+  "orientation": "landscape",
+  "icons": {
+    "16": "/app-icons/icon-16.png",
+    "48": "/app-icons/icon-48.png",
+    "60": "/app-icons/icon-60.png",
+    "128": "/app-icons/icon-128.png"
+  },
+  "developer": {
+    "name": "Austin Hartzheim",
+    "url": "http://austinhartzheim.me"
+  },
+  "locales": {},
+  "default_locale": "en"
+}

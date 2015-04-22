@@ -1,0 +1,33 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    background: black;
+    max-width: 600px;
+}
+
+#modenavigation, #timenavigation {
+    margin-top: 5px;
+}
+
+#modenavigation a, #timenavigation a {
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+}
+
+#modenavigation a {
+    background: steelblue;
+}
+
+#timenavigation a {
+    background: #B48246;;
+}
+
+#viewer {
+    position: absolute;
+}
+#viewer .viewimg {
+    position: absolute;
+    top: 0px; left: 0px;
+}

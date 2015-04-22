@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-us" manifest="manifest.appcache">
+  <head>
+    <title>Raindrop</title>
+    <meta charset="utf-8">
+<!--    <meta name="viewport" content="width=device-width">-->
+    <link rel="stylesheet" type="text/css" href="/styles/app.css">
+
+    <script type="text/javascript" src="/scripts/app.js"></script>
+  </head>
+  <body>
+    <div id="timenavigation">
+      <a href="#" onclick="app.setTimemode(0);">Latest</a>
+      <a href="#" onclick="app.setTimemode(1);">Loop</a>
+    </div>
+    <div id="modenavigation">
+      <a href="#" onclick="app.setMode('NCR');">Composite Reflectivity</a>
+      <a href="#" onclick="app.setMode('N0R');">Base Reflectivity</a>
+      <a href="#" onclick="app.setMode('N0S');">Storm Relative Motion</a>
+      <a href="#" onclick="app.setMode('N0V');">Base Velocity</a>
+      <a href="#" onclick="app.setMode('N1P');">One-Hour Precip.</a>
+      <a href="#" onclick="app.setMode('NTP');">Storm Total Precip.</a>
+      <a href="#" onclick="app.setMode('N0Z');">Long Range Base Reflectivity</a>
+    </div>
+
+    <div id="viewer">
+      <img id="ovrradar" class="viewimg">
+      <img id="ovrcities" class="viewimg">
+      <img id="ovrcounties" class="viewimg">
+    </div>
+
+  </body>
+</html>
