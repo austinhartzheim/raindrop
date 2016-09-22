@@ -24,10 +24,10 @@ html, body {
     background: #B48246;;
 }
 
-#viewer {
+.viewer {
     position: absolute;
 }
-#viewer .viewimg {
+.viewer .viewimg {
     position: absolute;
     top: 0px; left: 0px;
 }

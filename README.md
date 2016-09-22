@@ -14,3 +14,6 @@ This app will be available for Firefox OS.
 * http://www.goes.noaa.gov/
 * https://www.ssec.wisc.edu/localweather/radar.html
 * https://cimss.ssec.wisc.edu/goes/rt/
+
+### Other Images
+Icon: Drops by Dmitry Baranovskiy from the Noun Project
